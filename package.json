@@ -1,0 +1,26 @@
+{
+  "name": "satellizer",
+  "version": "1.0.0",
+  "description": "Satellizer Test",
+  "main": "index.html",
+  "dependencies": {
+    "angular": "^1.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajpatel/satellizer.git"
+  },
+  "keywords": [
+    "Satellizer"
+  ],
+  "author": "Pankaj Patel",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/pankajpatel/satellizer/issues"
+  },
+  "homepage": "https://github.com/pankajpatel/satellizer#readme"
+}
