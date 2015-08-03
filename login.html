@@ -23,48 +23,24 @@
     <![endif]-->
   </head>
 
-  <body ng-controller="HomeController">
+  <body ng-controller="LoginController">
 
     <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="login.html">Login</a></li>
+            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation" class="active"><a href="login.html">Login</a></li>
             <li role="presentation"><a href="#">Contact</a></li>
           </ul>
         </nav>
         <h3 class="text-info">Satellizer Test</h3>
       </div>
-
       <div class="jumbotron">
-        <h1>Satellizer Test</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="login.html" role="button">Sign up today</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
+        <p><button type="button" class="btn btn-success" ng-click="authenticate('facebook')">Sign in with Facebook</button>
+        <p><button type="button" class="btn btn-success" ng-click="authenticate('google')">Sign in with Google</button>
+        <p><button type="button" class="btn btn-success" ng-click="authenticate('github')">Sign in with GitHub</button>
+        <p><button type="button" class="btn btn-success" ng-click="authenticate('linkedin')">Sign in with LinkedIn</button>
       </div>
 
       <footer class="footer">
@@ -74,6 +50,7 @@
     </div> <!-- /container -->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/satellizer/satellizer.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>

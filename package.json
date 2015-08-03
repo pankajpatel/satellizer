@@ -1,12 +1,18 @@
 {
-  "name": "satellizer",
+  "name": "satellizerTest",
   "version": "1.0.0",
   "description": "Satellizer Test",
   "main": "index.html",
   "dependencies": {
+    "bootstrap": "^3.3.5",
     "angular": "^1.4.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "angular": "^1.4.3",
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
+    "satellizer": "^0.11.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
