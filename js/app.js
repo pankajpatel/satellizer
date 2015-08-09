@@ -19,7 +19,7 @@ var app = angular.module('satellizerTest', ['satellizer'])
     // LinkedIn
 		$authProvider.linkedin({
       clientId: 'ifko47b5j8i5',
-		  url: '/satellizer/auth/linkedin',
+		  url: '/satellizer/authLinkedIn.php',
 		  authorizationEndpoint: 'https://www.linkedin.com/uas/oauth2/authorization',
 		  redirectUri: window.location.origin || window.location.protocol + '//' + window.location.host,
 		  requiredUrlParams: ['state', 'scope', 'redirectUri'],
